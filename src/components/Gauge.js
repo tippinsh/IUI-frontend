@@ -29,6 +29,7 @@ function Gauge() {
   };
 
   const options = {
+    aspectRatio: 2,
     plugins: {
       legend: {
         display: false,
@@ -72,7 +73,12 @@ function Gauge() {
 
   return (
     <div className="w-2/3 mx-auto">
-      <Doughnut data={data} options={options} plugins={[gaugeText]}></Doughnut>
+      <Doughnut
+        data={data}
+        options={options}
+        plugins={[gaugeText]}
+        className="mt-6"
+      ></Doughnut>
     </div>
   );
 }
