@@ -67,12 +67,12 @@ function Gauge() {
       ctx.font = "18px sans-serif";
       ctx.textAlign = "center";
       ctx.textBaseLine = "buttom";
-      ctx.fillText("Low risk", xCenter, yCenter);
+      // ctx.fillText("Low risk", xCenter, yCenter);
     },
   };
 
   return (
-    <div className="w-2/3 mx-auto">
+    <div className="w-1/2 mx-auto">
       <Doughnut
         data={data}
         options={options}
