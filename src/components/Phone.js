@@ -1,7 +1,6 @@
 import wifi from "./assets/wifi.png";
 import signal from "./assets/signal.png";
 import battery from "./assets/battery.png";
-import FooterNav from "./FooterNav";
 
 function Phone(props) {
   return (
