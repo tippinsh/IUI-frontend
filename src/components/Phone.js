@@ -1,10 +1,11 @@
 import wifi from "./assets/wifi.png";
 import signal from "./assets/signal.png";
 import battery from "./assets/battery.png";
+import FooterNav from "./FooterNav";
 
 function Phone(props) {
   return (
-    <div className="flex justify-center bg-gray-200 py-10">
+    <div className="flex justify-center bg-gray-200 py-10 h-screen">
       <div className="w-[390px] h-[844px] rounded-xl bg-white">
         <div className="flex text-sm justify-between items-center py-3 px-5">
           <p>9:41</p>
