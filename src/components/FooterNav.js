@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function FooterNav() {
   return (
-    <div className="w-full flex justify-between items-center pb-4 px-4">
+    <div className="flex justify-between items-center pb-4 px-4">
       <LifebuoyIcon className="h-6 w-6" />
       <UserCircleIcon className="h-6 w-6" />
       <Link to="/">
