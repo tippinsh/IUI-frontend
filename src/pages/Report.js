@@ -47,6 +47,20 @@ function Report() {
             <p>Wins vs. Loss</p>
           </div>
         </div>
+        <div className="px-4 mt-8">
+          <h2 className="font-montserrat text-lg mb-2">
+            Insights and recommendations
+          </h2>
+          <p className="shadow-md p-2 rounded-lg font-sanspro bg-[#DBF5F0]">
+            Minim ullamco labore esse ex do.Incididunt commodo reprehenderit.
+          </p>
+          <p className="shadow-md p-2 rounded-lg font-sanspro bg-[#DBF5F0] mt-2">
+            Minim ullamco labore esse ex do.Incididunt commodo reprehenderit.
+          </p>
+          <p className="shadow-md p-2 rounded-lg font-sanspro bg-[#DBF5F0] mt-2">
+            Minim ullamco labore esse ex do.Incididunt commodo reprehenderit.
+          </p>
+        </div>
         <div className="mt-auto">
           <FooterNav></FooterNav>
         </div>
