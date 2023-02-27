@@ -2,6 +2,8 @@ import { useState } from "react";
 import Phone from "../components/Phone";
 import FooterNav from "../components/FooterNav";
 import Graph from "../components/Graph";
+import PieChart1 from "../components/PieChart1";
+import PieChart2 from "../components/PieChart2";
 
 const graphData = [
   [3, 1, 2, 0, 1, 1, 4],
@@ -34,6 +36,16 @@ function Report() {
         </div>
         <div>
           <Graph data={data}></Graph>
+        </div>
+        <div className="flex justify-around mt-6">
+          <div className="flex flex-col items-center gap-2">
+            <PieChart1></PieChart1>
+            <p>£ spent per game</p>
+          </div>
+          <div className="flex flex-col items-center gap-2">
+            <PieChart2></PieChart2>
+            <p>Wins vs. Loss</p>
+          </div>
         </div>
         <div className="mt-auto">
           <FooterNav></FooterNav>

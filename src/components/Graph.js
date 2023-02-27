@@ -17,7 +17,7 @@ function Graph(props) {
         label: "Avg. number of hours",
         data: props.data,
         borderColor: "black",
-        backgroundColor: "green",
+        backgroundColor: ["rgb(246, 142, 95)", "rgb(255, 221, 74)"],
         borderWidth: 1,
       },
     ],
