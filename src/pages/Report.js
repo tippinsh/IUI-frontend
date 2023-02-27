@@ -23,7 +23,7 @@ function Report() {
   return (
     <Phone>
       <div className="flex flex-col h-[800px]">
-        <div className="flex justify-center pt-3">
+        <div className="flex justify-center pt-1">
           Report for week:
           <select
             value={currentDate}
