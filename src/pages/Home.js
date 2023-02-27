@@ -42,9 +42,12 @@ function Home() {
             >
               <p>View Report</p>
             </Link>
-            <button className="w-full h-28 bg-[#FFF5DA] rounded-md flex justify-center items-center">
+            <Link
+              to="/survey"
+              className="w-full h-28 bg-[#FFF5DA] rounded-md flex justify-center items-center"
+            >
               <p>Submit Survey</p>
-            </button>
+            </Link>
           </div>
         </section>
         <div className="mt-auto">
