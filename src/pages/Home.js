@@ -59,5 +59,3 @@ function Home() {
 }
 
 export default Home;
-
-//every time the button is clicked either minus or plus 1

@@ -3,6 +3,9 @@ import Home from "./pages/Home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Report from "./pages/Report";
 import Survey from "./pages/Survey";
+import Account from "./pages/Account";
+import Contact from "./pages/Contact";
+import Help from "./pages/Help";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +19,18 @@ const router = createBrowserRouter([
   {
     path: "/survey",
     element: <Survey />,
+  },
+  {
+    path: "/account",
+    element: <Account />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+  },
+  {
+    path: "/help_now",
+    element: <Help />,
   },
 ]);
 

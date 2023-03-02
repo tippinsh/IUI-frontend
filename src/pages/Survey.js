@@ -38,7 +38,7 @@ function Survey() {
             class="block max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100"
           >
             <p class="font-normal text-gray-700 pb-32 pt-2 pl-2">
-              Question appears here.
+              Question appears here...
             </p>
             <form>
               <textarea

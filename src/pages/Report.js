@@ -51,13 +51,13 @@ function Report() {
           <h2 className="font-montserrat text-lg mb-2">
             Insights and recommendations
           </h2>
-          <p className="shadow-md p-2 rounded-lg font-sanspro bg-[#DBF5F0]">
+          <p className="p-2 font-sanspro block max-w-sm bg-orange-100 border border-gray-200 rounded-lg shadow hover:bg-white">
             Minim ullamco labore esse ex do.Incididunt commodo reprehenderit.
           </p>
-          <p className="shadow-md p-2 rounded-lg font-sanspro bg-[#DBF5F0] mt-2">
+          <p className="p-2 font-sanspro block max-w-sm bg-green-100 border border-gray-200 rounded-lg shadow hover:bg-white mt-2">
             Minim ullamco labore esse ex do.Incididunt commodo reprehenderit.
           </p>
-          <p className="shadow-md p-2 rounded-lg font-sanspro bg-[#DBF5F0] mt-2">
+          <p className="p-2 font-sanspro block max-w-sm bg-green-100 border border-gray-200 rounded-lg shadow hover:bg-white mt-2">
             Minim ullamco labore esse ex do.Incididunt commodo reprehenderit.
           </p>
         </div>
