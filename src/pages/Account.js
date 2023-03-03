@@ -8,7 +8,7 @@ function Account() {
     <Phone>
       <div className="flex flex-col h-[800px]">
         <div>
-          <h2 className="text-3xl px-4 pt-1">Account</h2>
+          <h2 className="text-3xl px-4 pt-1 font-gloock">Account</h2>
         </div>
         <div className="bg-white border border-gray-200 rounded-lg shadow p-3 tracking-tight text-gray-600 mx-3 mt-3">
           <div>
@@ -38,7 +38,11 @@ function Account() {
             <h2 className="text-xl mb-2">Linked apps</h2>
           </div>
           <div className="flex justify-between items-center">
-            <img src={betfred} className="h-10 w-24 rounded-md"></img>
+            <img
+              src={betfred}
+              alt="betfred logo"
+              className="h-10 w-24 rounded-md"
+            ></img>
             <div>
               <label class="relative inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
@@ -47,7 +51,11 @@ function Account() {
             </div>
           </div>
           <div className="flex justify-between items-center mt-2">
-            <img src={bet365} className="h-10 w-24 rounded-md"></img>
+            <img
+              src={bet365}
+              alt="bet365 logo"
+              className="h-10 w-24 rounded-md"
+            ></img>
             <div>
               <label class="relative inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />

@@ -30,13 +30,10 @@ function Survey() {
   return (
     <Phone>
       <div className="flex flex-col h-[800px]">
-        <h2 className="text-3xl text-center pt-3 mb-3">Weekly Check-in</h2>
+        <h2 className="text-3xl pt-3 mb-3 font-gloock px-4">Weekly Check-in</h2>
         <div className="mx-3 mb-6">
           <p className="p-2">{question}/10</p>
-          <a
-            href="#"
-            class="block max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100"
-          >
+          <div class="block max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
             <p class="font-normal text-gray-700 pb-32 pt-2 pl-2">
               Question appears here...
             </p>
@@ -48,7 +45,7 @@ function Survey() {
                 placeholder="Write your thoughts here..."
               ></textarea>
             </form>
-          </a>
+          </div>
         </div>
         <div className="flex justify-between px-4">
           <button
@@ -61,14 +58,14 @@ function Survey() {
             className="p-5 border-2 border-black rounded-full hover:bg-gray-100 cursor-pointer"
             onClick={() => clickHandler("plus")}
           >
-            {question == 10 ? (
+            {question === 10 ? (
               <CheckIcon className="w-6 h-6" />
             ) : (
               <ArrowRightIcon className="w-6 h-6"></ArrowRightIcon>
             )}
           </button>
         </div>
-        {question == 10 ? (
+        {question === 10 ? (
           <Link to="/" className="flex justify-center pt-6 px-2">
             <button
               type="button"

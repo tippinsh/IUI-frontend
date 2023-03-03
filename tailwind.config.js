@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
         sanspro: ["Source Sans Pro", "sans-serif"],
+        gloock: ["Gloock", "serif"],
       },
     },
   },

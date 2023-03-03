@@ -48,16 +48,16 @@ function Report() {
           </div>
         </div>
         <div className="px-4 mt-8">
-          <h2 className="font-montserrat text-lg mb-2">
+          <h2 className="font-gloock text-lg mb-2">
             Insights and recommendations
           </h2>
-          <p className="p-2 font-sanspro block max-w-sm bg-orange-100 border border-gray-200 rounded-lg shadow hover:bg-white">
+          <p className="p-2 font-sanspro block max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
             Minim ullamco labore esse ex do.Incididunt commodo reprehenderit.
           </p>
-          <p className="p-2 font-sanspro block max-w-sm bg-green-100 border border-gray-200 rounded-lg shadow hover:bg-white mt-2">
+          <p className="p-2 font-sanspro block max-w-sm bg-white border border-gray-200 rounded-lg shadow mt-2">
             Minim ullamco labore esse ex do.Incididunt commodo reprehenderit.
           </p>
-          <p className="p-2 font-sanspro block max-w-sm bg-green-100 border border-gray-200 rounded-lg shadow hover:bg-white mt-2">
+          <p className="p-2 font-sanspro block max-w-sm bg-white border border-gray-200 rounded-lg shadow  mt-2">
             Minim ullamco labore esse ex do.Incididunt commodo reprehenderit.
           </p>
         </div>
