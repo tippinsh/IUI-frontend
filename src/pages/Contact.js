@@ -15,10 +15,16 @@ function Contact() {
         >
           I need help with a gambling addiction
         </Link>
-        <Link className="bg-white border border-gray-200 rounded-lg shadow p-4 tracking-tight text-gray-600 mx-3 mt-4">
+        <Link
+          to="/contact_form"
+          className="bg-white border border-gray-200 rounded-lg shadow p-4 tracking-tight text-gray-600 mx-3 mt-4"
+        >
           Report a bug
         </Link>
-        <Link className="bg-white border border-gray-200 rounded-lg shadow p-4 tracking-tight text-gray-600 mx-3 mt-4">
+        <Link
+          to="/contact_form"
+          className="bg-white border border-gray-200 rounded-lg shadow p-4 tracking-tight text-gray-600 mx-3 mt-4"
+        >
           I need to speak with someone about my report
         </Link>
         <div className="mt-auto">

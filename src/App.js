@@ -6,6 +6,7 @@ import Survey from "./pages/Survey";
 import Account from "./pages/Account";
 import Contact from "./pages/Contact";
 import Help from "./pages/Help";
+import ContactForm from "./pages/ContactForm";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/help_now",
     element: <Help />,
+  },
+  {
+    path: "/contact_form",
+    element: <ContactForm />,
   },
 ]);
 
