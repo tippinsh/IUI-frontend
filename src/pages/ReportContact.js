@@ -1,23 +1,17 @@
 import Phone from "../components/Phone";
 import FooterNav from "../components/FooterNav";
 import { Link } from "react-router-dom";
+import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/outline";
 
 function ContactForm() {
   return (
     <Phone>
       <div className="flex flex-col h-[800px]">
         <div className="mx-2 px-1">
-          <h2 className="text-3xl pt-1 font-gloock mb-4">Report a bug</h2>
-          <div className="flex justify-between mb-2">
-            <h3 className="text-sm">On which page did the bug occur?</h3>
-            <select className="mb-2 rounded-lg w-32 text-sm">
-              <option>Home</option>
-              <option>Report</option>
-              <option>Account</option>
-              <option>Survey</option>
-              <option>Contact</option>
-              <option>Help</option>
-            </select>
+          <h2 className="text-3xl pt-1 font-gloock mb-2">Talk to us...</h2>
+          <div className="flex justify-between mb-4">
+            <p>Please allow up to 48 hours to hear back</p>
+            <ChatBubbleLeftRightIcon className="h-6 w-6" />
           </div>
 
           <form>

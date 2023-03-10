@@ -22,10 +22,10 @@ function Contact() {
           Report a bug
         </Link>
         <Link
-          to="/contact_form"
+          to="/talk_to_us"
           className="bg-white border border-gray-200 rounded-lg shadow p-4 tracking-tight text-gray-600 mx-3 mt-4"
         >
-          I need to speak with someone about my report
+          I need to contact you about something else
         </Link>
         <div className="mt-auto">
           <FooterNav></FooterNav>

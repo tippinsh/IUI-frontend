@@ -7,6 +7,7 @@ import Account from "./pages/Account";
 import Contact from "./pages/Contact";
 import Help from "./pages/Help";
 import ContactForm from "./pages/ContactForm";
+import ReportContact from "./pages/ReportContact";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/contact_form",
     element: <ContactForm />,
+  },
+  {
+    path: "/talk_to_us",
+    element: <ReportContact />,
   },
 ]);
 
