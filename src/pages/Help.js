@@ -1,6 +1,8 @@
 import Phone from "../components/Phone";
 import FooterNav from "../components/FooterNav";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import Signpost from "../components/Signpost";
 
 function Help() {
   const [answer, setAnswer] = useState("");
@@ -8,8 +10,6 @@ function Help() {
   const clickHandler = (a) => {
     if (a === 1) {
       setAnswer(1);
-    } else {
-      setAnswer(2);
     }
   };
 
@@ -26,14 +26,20 @@ function Help() {
             >
               Yes
             </button>
-            <button
-              className="border border-gray-200 w-1/2 p-1 rounded-lg hover:bg-gray-100"
-              onClick={() => clickHandler(2)}
+            <Link
+              className="border border-gray-200 w-1/2 p-1 rounded-lg hover:bg-gray-100 text-center"
+              to="/"
             >
               No
-            </button>
+            </Link>
           </div>
-          {answer === 1 ? <div>Hello</div> : <div></div>}
+          {answer === 1 ? (
+            <div className="mt-3">
+              <Signpost></Signpost>
+            </div>
+          ) : (
+            <div></div>
+          )}
         </div>
         <div className="mt-auto">
           <FooterNav></FooterNav>
