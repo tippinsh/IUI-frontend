@@ -18,7 +18,7 @@ function Account() {
             </div>
             <div className="text-sm">
               <p>Andre Dukas</p>
-              <p>46 years old</p>
+              <p>37 years old</p>
               <p>Male</p>
             </div>
           </div>
