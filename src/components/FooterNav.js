@@ -14,7 +14,7 @@ function FooterNav() {
       <Link to="/account">
         <UserCircleIcon className="h-6 w-6" />
       </Link>
-      <Link to="/">
+      <Link to="/home">
         <HomeIcon className="h-10 w-10" />
       </Link>
       <Link to="/report">

@@ -6,13 +6,14 @@ import Survey from "./pages/Survey";
 import Account from "./pages/Account";
 import Contact from "./pages/Contact";
 import Help from "./pages/Help";
+import Login from "./pages/Login";
 import ContactForm from "./pages/ContactForm";
 import ReportContact from "./pages/ReportContact";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Login />,
   },
   {
     path: "/report",
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "/talk_to_us",
     element: <ReportContact />,
+  },
+  {
+    path: "/home",
+    element: <Home />,
   },
 ]);
 

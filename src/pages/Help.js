@@ -28,7 +28,7 @@ function Help() {
             </button>
             <Link
               className="border border-gray-200 w-1/2 p-1 rounded-lg hover:bg-gray-100 text-center"
-              to="/"
+              to="/home"
             >
               No
             </Link>
