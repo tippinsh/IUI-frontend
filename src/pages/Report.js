@@ -52,13 +52,15 @@ function Report() {
             Insights and recommendations
           </h2>
           <p className="p-2 font-sanspro block max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
-            Minim ullamco labore esse ex do.Incididunt commodo reprehenderit.
+            You spent an extended amount of time gambling on Sunday, be mindful
+            of this.
           </p>
           <p className="p-2 font-sanspro block max-w-sm bg-white border border-gray-200 rounded-lg shadow mt-2">
-            Minim ullamco labore esse ex do.Incididunt commodo reprehenderit.
+            You won more than you lost this week. This includes withdrawals.
           </p>
           <p className="p-2 font-sanspro block max-w-sm bg-white border border-gray-200 rounded-lg shadow  mt-2">
-            Minim ullamco labore esse ex do.Incididunt commodo reprehenderit.
+            This week you have gambled more than you usually do, but your score
+            is not affected.
           </p>
         </div>
         <div className="mt-auto">
