@@ -7,6 +7,7 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
         sanspro: ["Source Sans Pro", "sans-serif"],
         gloock: ["Gloock", "serif"],
+        koulen: ["Koulen", "cursive"],
       },
     },
   },

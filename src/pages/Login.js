@@ -108,6 +108,11 @@ function Login() {
           </button>
           <p className="mt-3">Need an account? Register here</p>
         </div>
+        <div className="flex flex-col h-full justify-end">
+          <h3 className="mx-auto font-koulen text-3xl pb-4 text-[#21A179]">
+            BetBacked
+          </h3>
+        </div>
         <div className="mt-auto">
           <FooterNav></FooterNav>
         </div>
